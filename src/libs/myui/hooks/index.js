@@ -1,1 +1,1 @@
-export { useStars } from './stars'
+export { useStars } from '../components/Stars/stars'

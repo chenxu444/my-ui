@@ -1,5 +1,5 @@
 import { createApp, ref, watch } from 'vue'
-import MessageComponent from '../components/Message'
+import MessageComponent from './Message.vue'
 import {types} from './MessageType'
 
 const messageArr = ref([])
@@ -23,7 +23,6 @@ function showMessage(app,duration){
     setTop(vm)
     vm.visible = true
     watch(messageArr,()=>{
-        console.log(1);
         setTop(vm)
     })
     hideMessage(app,duration,vm,()=>{

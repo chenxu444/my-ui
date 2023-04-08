@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import '../iconfont/iconfont.css'
-import { useStars } from '../hooks'
+import '../../iconfont/iconfont.css'
+import { useStars } from '../../hooks'
 import { ref } from 'vue'
 export default {
     name:'Stars',

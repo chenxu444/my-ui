@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import {types} from '../hooks/MessageType'
+import {types} from './MessageType'
 import { computed,ref,toRefs,reactive } from 'vue'
 export default {
     name: 'Message',
